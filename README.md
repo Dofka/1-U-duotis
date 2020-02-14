@@ -8,7 +8,10 @@
 
 ## v.02
 
-
+Šioje programoje įvedus savo vardą. Bus išmetamas rėmelis, sudarytas iš žvaigždučių, kurio viduje tekstas: "Sveikas, " ir jūsų vardas.
+Šiuoje versijoje programa, ne tik spausdina rėmelį, bet ir atsižvelgia į vardo giminę. Jei vardas yra vyriškas kreipinys išlieka "Sveikas, ......", jei moteriškas vardas, tai kreipinys pasikeičia į "Sveika, .......".
 
 ## Naudojimo instrukcijos
 
+Pirma reikia instaliuoti kompailerį MinGW.Atsidarius command line ir pakeisti directory ten kur yra tas cpp failas. Tada reikia naudoti, kad sukompilintum/paleistum:
+gcc sourcefile_name.c arba gcc -o outputfile.exe
